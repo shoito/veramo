@@ -1,11 +1,8 @@
 {
   "version": "4.3.0",
-  "packages": [
-    "packages/*"
-  ],
   "npmClient": "pnpm",
   "changelog": {
-    "repo": "uport-project/veramo",
+    "repo": "decentralized-identity/veramo",
     "cacheDir": ".changelog"
   },
   "command": {
@@ -13,12 +10,12 @@
       "allowBranch": [
         "main",
         "next",
-        "master"
+        "master",
+        "unstable"
       ],
       "conventionalCommits": true,
       "gitRemote": "origin",
       "message": "chore(release): %s [skip ci]"
     }
-  },
-  "useWorkspaces": true
+  }
 }
